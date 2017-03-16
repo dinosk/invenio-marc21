@@ -27,9 +27,8 @@
 import copy
 
 from invenio_records_rest.config import RECORDS_REST_ENDPOINTS
-from invenio_records_ui.config import RECORDS_UI_ENDPOINTS
-
 from invenio_records_rest.query import es_search_factory
+from invenio_records_ui.config import RECORDS_UI_ENDPOINTS
 
 MARC21_UI_EXPORT_FORMATS = {
     'recid': {
